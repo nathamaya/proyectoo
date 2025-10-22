@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppKids.Capitulo1Page"
+             Title="Capitulo1Page"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="Transparent">
+
+    <Grid RowDefinitions="Auto, *" ColumnDefinitions="*" Padding="20" RowSpacing="20">
+
+        <!-- Pregunta principal -->
+        <Label Text="¿Qué te gustaría alcanzar con MindWave?"
+               FontSize="24"
+               FontAttributes="Bold"
+               TextColor="White"
+               HorizontalTextAlignment="Center"
+               Grid.Row="0"
+               Margin="0,0,0,10"/>
+
+        <!-- Grid 2x2 de opciones -->
+
+        <Grid Grid.Row="1" RowDefinitions="*,*" ColumnDefinitions="*,*" ColumnSpacing="20" RowSpacing="20">
+
+            <!-- Botón 1 -->
+            <Frame x:Name="Frame1"
+           CornerRadius="20"
+           HasShadow="True"
+           Padding="0"
+           Grid.Row="0" Grid.Column="0"
+           BackgroundColor="White">
+                <Image Source="butsix.jpg"
+               Aspect="AspectFit"
+               HeightRequest="200"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <!-- Botón 2 -->
+            <Frame x:Name="Frame2"
+           CornerRadius="20"
+           HasShadow="True"
+           Padding="0"
+           Grid.Row="0" Grid.Column="1"
+           BackgroundColor="white">
+                <Image Source="butthre.jpg"
+               Aspect="AspectFit"
+               HeightRequest="200"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <!-- Botón 3 -->
+            <Frame x:Name="Frame3"
+           CornerRadius="20"
+           HasShadow="True"
+           Padding="0"
+           Grid.Row="1" Grid.Column="0"
+           BackgroundColor="White">
+                <Image Source="butfour.jpg"
+               Aspect="AspectFit"
+               HeightRequest="200"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <!-- Botón 4 -->
+            <Frame x:Name="Frame4"
+           CornerRadius="20"
+           HasShadow="True"
+           Padding="0"
+           Grid.Row="1" Grid.Column="1"
+           BackgroundColor="White">
+                <Image Source="butfive.jpg"
+               Aspect="AspectFit"
+               HeightRequest="200"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+        </Grid>
+    </Grid>
+</ContentPage>

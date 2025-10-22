@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppKids.Capitulo2Page"
+             Title="Capitulo2Page"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="Transparent">
+ 
+        <Grid>
+
+            <Image Source="font.jpg"
+               Aspect="AspectFill"
+               Opacity="0.85" />
+
+
+            <ScrollView VerticalScrollBarVisibility="Never">
+                <VerticalStackLayout Padding="20" Spacing="25" VerticalOptions="Center" HorizontalOptions="Center">
+
+
+                    <Label Text="Capítulo Dos"
+                       FontSize="40"
+                       FontAttributes="Bold"
+                       TextColor="#FFD54F"
+                       HorizontalOptions="Center"
+                       FontFamily="cursive" />
+
+                    <Image Source="dos.png"
+                       HeightRequest="150"
+                       HorizontalOptions="Center" />
+
+
+                <Label Text="Muchos años después, el narrador se convirtió en piloto y su avión se averió en medio del desierto. Allí, conoció a un niño rubio y pequeño llamado el Principito. El niño le pidió que le dibujara un cordero. Al principio, el narrador dibujó varios animales, pero ninguno le gustó. Finalmente, dibujó una caja y le dijo que el cordero estaba dentro. El Principito se alegró mucho con ese dibujo..."
+                       FontSize="16"
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       LineBreakMode="WordWrap" />
+
+
+                    <Button Text="Ir a Preguntas"
+                        BackgroundColor="#FFD54F"
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        CornerRadius="25"
+                        HeightRequest="60"
+                        HorizontalOptions="FillAndExpand"
+                        Clicked="OnPreguntasClicked" />
+
+                </VerticalStackLayout>
+            </ScrollView>
+        </Grid>
+
+</ContentPage>

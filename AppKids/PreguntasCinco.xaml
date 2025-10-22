@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppKids.PreguntasCinco"
+             Title="PreguntasCinco"
+             BackgroundColor="#FFF8E1"
+             Shell.NavBarIsVisible="False">
+
+
+        <Grid>
+            <ScrollView>
+                <VerticalStackLayout Padding="20" Spacing="30">
+
+                    <Label Text="Preguntas - Capítulo 5"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="Black"/>
+
+                    <!-- Pregunta 1 -->
+                    <Label Text="1. ¿Qué preocupaba mucho al Principito en este capítulo?" 
+                       FontSize="18"
+                       TextColor="Black"/>
+                    <RadioButton x:Name="rb1_1" Content="Los volcanes en erupción" GroupName="p1" TextColor="Black"/>
+                    <RadioButton x:Name="rb1_2" Content="Los baobabs que podían destruir su planeta" GroupName="p1" TextColor="Black"/>
+                    <RadioButton x:Name="rb1_3" Content="Perder su avión" GroupName="p1" TextColor="Black"/>
+                    <Image x:Name="imgP1" IsVisible="False" HeightRequest="30" />
+
+                    <!-- Pregunta 2 -->
+                    <Label Text="2. ¿Qué recomendaba el Principito hacer con los baobabs?" 
+                       FontSize="18"
+                       TextColor="Black"/>
+                    <RadioButton x:Name="rb2_1" Content="Dejarlos crecer y podarlos" GroupName="p2" TextColor="Black"/>
+                    <RadioButton x:Name="rb2_2" Content="Arrancarlos cuando eran pequeños" GroupName="p2" TextColor="Black"/>
+                    <RadioButton x:Name="rb2_3" Content="Regarlos mucho para que fueran más fuertes" GroupName="p2" TextColor="Black"/>
+                    <Image x:Name="imgP2" IsVisible="False" HeightRequest="30" />
+
+                    <!-- Pregunta 3 -->
+                    <Label Text="3. ¿Qué pasaba si los baobabs crecían demasiado?" 
+                       FontSize="18"
+                       TextColor="Black"/>
+                    <RadioButton x:Name="rb3_1" Content="Romperían el planeta con sus raíces" GroupName="p3" TextColor="Black"/>
+                    <RadioButton x:Name="rb3_2" Content="Daban sombra y oscurecían todo" GroupName="p3" TextColor="Black"/>
+                    <RadioButton x:Name="rb3_3" Content="Se volvían venenosos" GroupName="p3" TextColor="Black"/>
+                    <Image x:Name="imgP3" IsVisible="False" HeightRequest="30" />
+
+                    <!-- Botón -->
+                    <Button Text="Finalizar"
+                        Clicked="Button_Clicked"
+                        BackgroundColor="#F9C80E"
+                        TextColor="Black"/>
+                </VerticalStackLayout>
+            </ScrollView>
+
+            <!-- Pantalla emergente de resultado -->
+            <Frame x:Name="popupResultado"
+               IsVisible="False"
+               BackgroundColor="#E0F7FA"
+               BorderColor="LightBlue"
+               CornerRadius="20"
+               Padding="20"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               WidthRequest="300">
+                <VerticalStackLayout Spacing="20" HorizontalOptions="Center">
+                    <Label x:Name="lblResultado"
+                       FontSize="20"
+                       TextColor="Brown"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center" />
+                    <Button Text="Continuar"
+                        Clicked="Continuar_Clicked"
+                        BackgroundColor="#F9C80E"
+                        TextColor="Black"/>
+                </VerticalStackLayout>
+            </Frame>
+        </Grid>
+    </ContentPage>

@@ -1,0 +1,45 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppKids"
+             x:Class="AppKids.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- Color pastel -->
+            <Color x:Key="CelestePastel">#D6F0FA</Color>
+
+            
+            <Style TargetType="ContentPage">
+                <Setter Property="Shell.NavBarIsVisible" Value="False" />
+            </Style>
+
+            <!-- 🎨 Colores personalizados -->
+            <Color x:Key="FondoShellCeleste">#D6F0FA</Color>
+            <!-- Celeste pastel -->
+            <Color x:Key="IconoAmarillo">#FFD700</Color>
+            <!-- Amarillo estrella -->
+            <Color x:Key="TextoOscuro">#222831</Color>
+            <!-- Azul oscuro / gris casi negro -->
+
+            <!-- ✨ Estilo del Shell -->
+            <Style TargetType="Shell">
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource FondoShellCeleste}" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="{StaticResource TextoOscuro}" />
+                <Setter Property="Shell.TabBarTitleColor" Value="{StaticResource TextoOscuro}" />
+                <Setter Property="Shell.TabBarUnselectedColor" Value="#777777" />
+            </Style>
+
+            <!-- ✨ Estilo para los iconos activos -->
+            <Style TargetType="ShellItem">
+                <Setter Property="Shell.TabBarTitleColor" Value="{StaticResource TextoOscuro}" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="{StaticResource TextoOscuro}" />
+            </Style>
+            
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

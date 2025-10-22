@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppKids.PreguntasUno"
+             Title="PreguntasUno"
+             BackgroundColor="#FFF8E1"
+             Shell.NavBarIsVisible="False">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <Label Text="Selecciona los pensamientos que reconoces"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="Brown"/>
+
+            <!-- Botones de selección -->
+            <Button x:Name="btn1" Text="Me critico a mí mismo" Clicked="BotonSeleccionado_Clicked"/>
+            <Button x:Name="btn2" Text="Siento que nada sale bien" Clicked="BotonSeleccionado_Clicked"/>
+            <Button x:Name="btn3" Text="Me comparo con otros" Clicked="BotonSeleccionado_Clicked"/>
+            <Button x:Name="btn4" Text="Pienso que los demás me juzgan" Clicked="BotonSeleccionado_Clicked"/>
+            <Button x:Name="btn5" Text="Me culpo por cosas pequeñas" Clicked="BotonSeleccionado_Clicked"/>
+
+            <!-- Botón para generar proceso -->
+            <Button Text="Generar proceso personalizado" Clicked="GenerarProceso_Clicked"
+                    BackgroundColor="#F9C80E" TextColor="Black" CornerRadius="10"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

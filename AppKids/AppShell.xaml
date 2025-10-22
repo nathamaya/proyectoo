@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="AppKids.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AppKids"
+    Title="El Principito"
+    Shell.FlyoutBehavior="Disabled"
+    
+    Shell.TabBarBackgroundColor="#D6F0FA"
+    Shell.TabBarTitleColor="#FFD700"
+    Shell.TabBarUnselectedColor="#888888">
+
+
+    <TabBar>
+        <!-- Página de Inicio -->
+        <ShellContent Title="Inicio"
+                  Icon="star.png"
+                  ContentTemplate="{DataTemplate local:MainPage}"
+                  Route="MainPage" />
+
+        <!-- Capítulo 1 -->
+        <ShellContent Title="Cap. 1"
+                  Icon="star.png"
+                  ContentTemplate="{DataTemplate local:Capitulo1Page}"
+                  Route="capitulo1" />
+
+        <!-- Capítulo 2 -->
+        <ShellContent Title="Cap. 2"
+                  Icon="star.png"
+                  ContentTemplate="{DataTemplate local:Capitulo2Page}"
+                  Route="capitulo2" />
+
+        <!-- Capítulo 3 -->
+        <ShellContent Title="Cap. 3"
+                  Icon="star.png"
+                  ContentTemplate="{DataTemplate local:Capitulo3Page}"
+                  Route="capitulo3" />
+
+        <!-- Capítulo 4 -->
+        <ShellContent Title="Cap. 4"
+                  Icon="star.png"
+                  ContentTemplate="{DataTemplate local:Capitulo4Page}"
+                  Route="capitulo4" />
+
+        <!-- Capítulo 5 -->
+        <ShellContent Title="Cap. 5"
+                  Icon="star.png"
+                  ContentTemplate="{DataTemplate local:Capitulo5Page}"
+                  Route="capitulo5" />
+
+        <!-- juego -->
+        <ShellContent Title="juego"
+           Icon="star.png"
+           ContentTemplate="{DataTemplate local:JuegoPage}"
+           Route="juegoPage" />
+
+    </TabBar>
+</Shell>

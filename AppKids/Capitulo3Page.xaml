@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppKids.Capitulo3Page"
+             Title="Capitulo3Page"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="Transparent">
+
+    <Grid>
+            <!-- Fondo igual que inicio -->
+            <Image Source="font.jpg"
+               Aspect="AspectFill"
+               Opacity="0.85" />
+
+            <!-- Contenido principal -->
+            <ScrollView VerticalScrollBarVisibility="Never">
+                <VerticalStackLayout Padding="20" Spacing="25" VerticalOptions="Center" HorizontalOptions="Center">
+
+                    <!-- Título grande amarillo -->
+                    <Label Text="Capítulo Tres"
+                       FontSize="40"
+                       FontAttributes="Bold"
+                       TextColor="#FFD54F"
+                       HorizontalOptions="Center"
+                       FontFamily="cursive" />
+
+                    <!-- Imagen con bordes redondeados -->
+                    <Image Source="tres.png"
+                               HeightRequest="150"
+                               HorizontalOptions="Center"/>
+
+                    <!-- Texto de la historia en blanco -->
+                <Label Text="El Principito vive en un pequeño planeta llamado el Asteroide B-612. Allí tiene tres volcanes que cuida y una rosa muy especial que es un poco vanidosa. La rosa habla mucho y quiere que la cuiden. El Principito se siente un poco confundido porque no sabe si la quiere o si está enojado con ella. A veces se siente solo en su planeta..."
+                       FontSize="16"
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       LineBreakMode="WordWrap" />
+
+                    <!-- Botón amarillo grande -->
+                    <Button Text="Ir a Preguntas"
+                        BackgroundColor="#FFD54F"
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        CornerRadius="25"
+                        HeightRequest="60"
+                        HorizontalOptions="FillAndExpand"
+                        Clicked="OnPreguntasClicked" />
+
+                </VerticalStackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage>

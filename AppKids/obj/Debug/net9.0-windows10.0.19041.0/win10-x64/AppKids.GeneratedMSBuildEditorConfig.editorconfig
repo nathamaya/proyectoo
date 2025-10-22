@@ -1,0 +1,119 @@
+is_global = true
+build_property.TargetFramework = net9.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppKids
+build_property.ProjectDir = C:\Users\Amaya\OneDrive\Desktop\AppKids\AppKids\AppKids\AppKids\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/Capitulo1Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.Capitulo1Page.xaml
+build_metadata.AdditionalFiles.TargetPath = Capitulo1Page.xaml
+build_metadata.AdditionalFiles.RelativePath = Capitulo1Page.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/Capitulo2Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.Capitulo2Page.xaml
+build_metadata.AdditionalFiles.TargetPath = Capitulo2Page.xaml
+build_metadata.AdditionalFiles.RelativePath = Capitulo2Page.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/Capitulo3Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.Capitulo3Page.xaml
+build_metadata.AdditionalFiles.TargetPath = Capitulo3Page.xaml
+build_metadata.AdditionalFiles.RelativePath = Capitulo3Page.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/Capitulo4Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.Capitulo4Page.xaml
+build_metadata.AdditionalFiles.TargetPath = Capitulo4Page.xaml
+build_metadata.AdditionalFiles.RelativePath = Capitulo4Page.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/Capitulo5Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.Capitulo5Page.xaml
+build_metadata.AdditionalFiles.TargetPath = Capitulo5Page.xaml
+build_metadata.AdditionalFiles.RelativePath = Capitulo5Page.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/JuegoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.JuegoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = JuegoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = JuegoPage.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/PreguntasCinco.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.PreguntasCinco.xaml
+build_metadata.AdditionalFiles.TargetPath = PreguntasCinco.xaml
+build_metadata.AdditionalFiles.RelativePath = PreguntasCinco.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/PreguntasCuatro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.PreguntasCuatro.xaml
+build_metadata.AdditionalFiles.TargetPath = PreguntasCuatro.xaml
+build_metadata.AdditionalFiles.RelativePath = PreguntasCuatro.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/PreguntasDos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.PreguntasDos.xaml
+build_metadata.AdditionalFiles.TargetPath = PreguntasDos.xaml
+build_metadata.AdditionalFiles.RelativePath = PreguntasDos.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/PreguntasTres.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.PreguntasTres.xaml
+build_metadata.AdditionalFiles.TargetPath = PreguntasTres.xaml
+build_metadata.AdditionalFiles.RelativePath = PreguntasTres.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/PreguntasUno.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.PreguntasUno.xaml
+build_metadata.AdditionalFiles.TargetPath = PreguntasUno.xaml
+build_metadata.AdditionalFiles.RelativePath = PreguntasUno.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Amaya/OneDrive/Desktop/AppKids/AppKids/AppKids/AppKids/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppKids.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

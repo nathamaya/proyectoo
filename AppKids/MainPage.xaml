@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppKids.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="Transparent"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid>
+        <!-- Fondo relajante -->
+        <Image Source="fondo.jpg"
+               Aspect="AspectFill"
+               Opacity="0.85" />
+
+        <!-- Introducción con logo -->
+        <Grid x:Name="IntroGrid"
+              BackgroundColor="Transparent"
+              VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand"
+              IsVisible="True">
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                <Label x:Name="logoLabel"
+               Text="MindWave"
+               FontFamily="Rufina"
+               FontSize="40"
+               FontAttributes="Bold"    
+               TextColor="White"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Opacity="0.9" />
+            </StackLayout>
+        </Grid>
+
+        <!-- Formulario de inicio de sesión -->
+        <ScrollView x:Name="LoginForm" IsVisible="False" Opacity="0">
+            <StackLayout Padding="30" Spacing="20" VerticalOptions="Center" HorizontalOptions="Center">
+
+                <Label Text="Bienvenido a MindWave" 
+                       FontSize="28"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="#00796B"
+                       FontFamily="cursive"/>
+
+                <!-- Email -->
+                <Entry x:Name="EmailEntry" 
+                       Placeholder="Correo electrónico" 
+                       Keyboard="Email"
+                       BackgroundColor="#F1F8E9"
+                       TextColor="#33691E"
+                       HeightRequest="50"
+                   />
+
+                <!-- Contraseña -->
+                <Entry x:Name="PasswordEntry" 
+                       Placeholder="Contraseña"
+                       IsPassword="True"
+                       BackgroundColor="#F1F8E9"
+                       TextColor="#33691E"
+                       HeightRequest="50"
+                       />
+
+                <!-- Botón Iniciar Sesión -->
+                <Button Text="Iniciar Sesión"
+                        BackgroundColor="#00796B"
+                        TextColor="White"
+                        CornerRadius="20"
+                        HeightRequest="50"
+                        Clicked="OnLoginClicked"/>
+
+                <!-- Botón Crear Cuenta -->
+                <Button Text="Crear Cuenta"
+                        BackgroundColor="#558B2F"
+                        TextColor="White"
+                        CornerRadius="20"
+                        HeightRequest="50"
+                        Clicked="OnRegisterClicked"/>
+            </StackLayout>
+        </ScrollView>
+
+    </Grid>
+</ContentPage>
