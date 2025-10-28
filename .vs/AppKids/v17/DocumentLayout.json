@@ -1,12 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Amaya\\OneDrive\\Desktop\\AppKids\\AppKids\\AppKids\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\MINEDUCYT\\source\\repos\\proyectoo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D8EA6D4-CCC9-4B7A-991F-CEC511860441}|AppKids\\AppKids.csproj|c:\\users\\mineducyt\\source\\repos\\proyectoo\\appkids\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D8EA6D4-CCC9-4B7A-991F-CEC511860441}|AppKids\\AppKids.csproj|solutionrelative:appkids\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D8EA6D4-CCC9-4B7A-991F-CEC511860441}|AppKids\\AppKids.csproj|c:\\users\\mineducyt\\source\\repos\\proyectoo\\appkids\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D8EA6D4-CCC9-4B7A-991F-CEC511860441}|AppKids\\AppKids.csproj|solutionrelative:appkids\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 261,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\source\\repos\\proyectoo\\AppKids\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "AppKids\\Register.xaml.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\source\\repos\\proyectoo\\AppKids\\Register.xaml.cs",
+              "RelativeToolTip": "AppKids\\Register.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T04:20:01.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\source\\repos\\proyectoo\\AppKids\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppKids\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\source\\repos\\proyectoo\\AppKids\\MainPage.xaml.cs",
+              "RelativeToolTip": "AppKids\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T04:15:40.012Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

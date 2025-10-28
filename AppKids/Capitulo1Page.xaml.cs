@@ -1,10 +1,14 @@
+using AppKids.Data;
+
 namespace AppKids;
 
 public partial class Capitulo1Page : ContentPage
 {
-	public Capitulo1Page()
+    private readonly DatabaseRepository _repo;
+    public Capitulo1Page(DatabaseRepository repo)
 	{
 		InitializeComponent();
+        _repo = repo;
         AddPressEffect(Frame1);
         AddPressEffect(Frame2);
         AddPressEffect(Frame3);

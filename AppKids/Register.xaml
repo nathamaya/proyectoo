@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppKids.Register"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="Transparent"
+             NavigationPage.HasNavigationBar="False"
+             Title="Registrarse">
+    <Grid>
+        <!-- Fondo relajante -->
+        <Image Source="fondo.jpg"
+           Aspect="AspectFill"
+           Opacity="0.85" />
+
+        <!-- Formulario de inicio de sesión -->
+        <ScrollView x:Name="SignInForm" >
+            <StackLayout Padding="30" Spacing="20" VerticalOptions="Center" HorizontalOptions="Center">
+
+                <Label Text="Registrate" 
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="#00796B"
+                   FontFamily="cursive"/>
+
+                <!-- Username -->
+                <Entry x:Name="UsernameEntry" 
+                    Placeholder="Nombre de Usuario" 
+                    Keyboard="Text"
+                    BackgroundColor="#F1F8E9"
+                    TextColor="#33691E"
+                    HeightRequest="50"
+                    WidthRequest="350"
+                />
+
+                <!-- Email -->
+                <Entry x:Name="EmailEntry" 
+                   Placeholder="Correo electrónico" 
+                   Keyboard="Email"
+                   BackgroundColor="#F1F8E9"
+                   TextColor="#33691E"
+                   HeightRequest="50"
+               />
+
+                <!-- Contraseña -->
+                <Entry x:Name="PasswordEntry" 
+                   Placeholder="Contraseña"
+                   IsPassword="True"
+                   BackgroundColor="#F1F8E9"
+                   TextColor="#33691E"
+                   HeightRequest="50"
+                   WidthRequest="350"
+                   />
+
+                <!-- Botón Registrarse -->
+                <Button Text="Registrarse"
+                    BackgroundColor="#00796B"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"
+                    Clicked="OnSignInClicked"/>
+
+                <!-- Botón Volver -->
+                <Button Text="⇦"
+                    BackgroundColor="#558B2F"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"
+                    Clicked="OnReturnClicked"/>
+            </StackLayout>
+        </ScrollView>
+
+    </Grid>
+</ContentPage>

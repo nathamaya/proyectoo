@@ -34,13 +34,13 @@ namespace AppKids
                     http.DefaultRequestHeaders.Authorization =
                         new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
                             "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");
-
+                
                     var payload = new
                     {
                         model = "gpt-4o-mini",
                         messages = new[]
                         {
-                        new { role = "system", content = "Eres un asistente amigable que responde de forma breve y clara." },
+                        new { role = "system", content = "Eres un asistente psicológico amigable que responde de forma breve y clara, si el usuario denota negatividad, lo escuchas y aconsejas responsablemente." },
                         new { role = "user", content = userText }
                     },
                         max_tokens = 300,

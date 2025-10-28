@@ -1,11 +1,22 @@
-﻿namespace AppKids
+﻿using AppKids.Data;
+
+namespace AppKids
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        private readonly DatabaseRepository _repo;
+        public MainPage(DatabaseRepository repo)
         {
             InitializeComponent();
+            _repo = repo;
             ShowIntro();
+            
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            Shell.SetTabBarIsVisible(this, false);
         }
 
         private async void ShowIntro()
@@ -35,14 +46,29 @@
 
         private async void OnLoginClicked(object sender, EventArgs e)
         {
-            // Aquí luego se agregará la lógica de inicio de sesión
-            await DisplayAlert("Login", "Función aún no implementada", "OK");
+            try
+            {
+
+                bool isRegistered = _repo.IsRegistered(EmailEntry.Text, PasswordEntry.Text).Result;
+                if (isRegistered)
+                {
+                    Shell.SetTabBarIsVisible(this, true);
+                    await Navigation.PushAsync(new Capitulo1Page(_repo));
+                }
+                else
+                {
+                    await DisplayAlert("Error de autenticación", "Correo o contraseña incorrectos.", "OK");
+                }
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error al iniciar sesión", "Correo o contraseña incorrectos", "OK");
+            }
         }
 
         private async void OnRegisterClicked(object sender, EventArgs e)
         {
-            // Aquí luego se agregará la lógica de crear cuenta
-            await DisplayAlert("Crear Cuenta", "Función aún no implementada", "OK");
+            await Navigation.PushAsync(new Register(_repo));
         }
     }
 }
