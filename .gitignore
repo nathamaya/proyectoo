@@ -1,0 +1,80 @@
+# ----------------------------------------------------------------
+# --- Plantilla de Visual Studio / .NET ---
+# ----------------------------------------------------------------
+## Ignorar archivos temporales, resultados de compilación y
+## archivos generados por Visual Studio.
+
+# Resultados de compilación
+[Bb]in/
+[Oo]bj/
+
+# Caché y configuraciones de usuario de Visual Studio
+.vs/
+
+# Archivos específicos del usuario
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de depuración y profiling
+*.log
+*.vspx
+*.vsp
+*.trace
+*.etl
+*.pdb
+
+# Resultados de Pruebas
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+
+# Carpetas de paquetes NuGet (aunque .NET moderno usa 'obj')
+[Pp]ackages/
+
+# ----------------------------------------------------------------
+# --- Específicos de .NET MAUI ---
+# ----------------------------------------------------------------
+
+# Artefactos de compilación de plataformas
+
+# Android
+*.apk
+*.aab
+*.fastjson
+bin.jar
+
+# iOS / macOS
+*.ipa
+*.app
+DerivedData/
+*.xcarchive
+Symbols/
+
+# Windows
+AppPackages/
+Bundle/
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+*.pfx # ¡IMPORTANTE! No subir certificados privados
+
+# ----------------------------------------------------------------
+# --- Específicos del Proyecto (SQLite y Secretos) ---
+# ----------------------------------------------------------------
+
+# ¡MUY IMPORTANTE para bases de datos locales!
+# Ignorar los archivos de la base de datos SQLite
+*.db3
+*.db3-shm
+*.db3-wal
+*.db3-journal
+
+# Claves de firma de Android
+*.keystore # ¡MUY IMPORTANTE! No subir claves privadas
+
+# Archivos de entorno local o secretos
+.env
+appsettings.Development.json
